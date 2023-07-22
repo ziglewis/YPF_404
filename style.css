@@ -56,7 +56,7 @@
 
 section {
     padding-top: 150px;
-    background-color: rgb(37, 34, 34);
+    background-color: #ffffff;
 }
 
 
@@ -95,6 +95,7 @@ body{
     font-size:x-small;
     font-weight: 1000;
     letter-spacing:2px ;
+    
 }
 
 .Other-bars {
@@ -103,6 +104,7 @@ body{
     font-size: 14px;
     cursor:pointer;
     letter-spacing: 1px;
+    
 }
 .color-fill:hover, .pop-up-event-dropdown-contents:hover, .Hero-footer-line:hover{
     animation-name: color-fill;
@@ -131,6 +133,7 @@ body{
     color: white;
     padding: 10px 15px ;
     box-sizing: border-box; 
+ 
 }
 
 .Other-bars a, #Event-drop-down a, .pop-up a{
@@ -185,13 +188,14 @@ body{
   main { 
     color: #ffffff;
     box-sizing: border-box;
+    
     }
 
 
 hr {
     width: 94%;
     z-index: 8;
-    top: 60px;
+    top: 65px;
     text-align: center;
     position: fixed;
     left: 3%;
@@ -229,14 +233,16 @@ hr {
 
 .hero-section{
     width: 100%;
-    margin-top: -150px;
-    
     box-sizing: border-box;
+    background-color: #ffffff;
+    text-align: center;
+
 }
 
 .About-hero-img {
 width: 100%;
-height: auto;
+max-width: 700px;
+
 }
 
 
@@ -248,14 +254,12 @@ height: auto;
     padding: 20px 13%;
 
 }
-.gallery-text h1 {
+.gallery-text h2 {
     color: #6bc329;
-    font-size: 38px;
-    line-height: 24px;
-    letter-spacing: 3px;
+    font-size: 24px;
     font-weight: 600;
     vertical-align: baseline;
-    text-transform: capitalize;
+   
 }
 
 .all-photos {
@@ -325,6 +329,7 @@ height: 250px;
     display: flex;
     padding: 60px 12%;
     gap: 2%;
+    background-color: rgb(37, 34, 34);
 }
 
 .contact-us-items {
@@ -504,15 +509,6 @@ footer p{
     }
 
   
-    .all-photos{ 
-
-      padding: 50px 3% 150px;
-
-         }
-
-         .all-photos-Events{
-          padding: 50px 3% 100px;
-        }
 
 
 
@@ -544,10 +540,6 @@ footer p{
         right: -1000px;
                  }
 
-
-     .About-hero-img {
-                    margin-top: 70px;
-                    }
 
     .contact-us {
         padding: 60px 5%;
