@@ -106,3 +106,35 @@ let poUpOnAndOff = () => {
 
       
     
+ //HANDLING THE CLEARING OF THE NEWSLETTER SUBSCRIPTION FORM AFTER SUBMISSION
+
+    
+ let newsLetterForm = document.querySelector(".news-letter form")
+
+ let newsLetterSubmitBtn = document.querySelector("#subscribe")
+
+  window.addEventListener("pageshow", function() {
+    newsLetterForm.reset()
+    
+  });
+
+
+  
+
+   // HANDLING THE SORTING OF THE BLOG WHEN IT IS LINKED TO FROM THE FOOTER BLOG SECTION
+  
+   let myAllFooterBlogLinks = document.querySelectorAll (".blog a")
+  
+   myAllFooterBlogLinks.forEach(function(blogCategory) {
+       
+       let categoryName = blogCategory.textContent.split(" ")[1].toLowerCase()+"Blog"
+       blogCategory.addEventListener("click", function(){
+           window.location.href =  `
+           https://ziglewis.github.io/YPF_Anambra_Blog_Page/?${categoryName}=true 
+           `     
+           })  }) 
+
+
+
+ 
+// JS FOR HOME PAGE ENDS HERE
