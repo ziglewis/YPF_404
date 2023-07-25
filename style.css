@@ -262,6 +262,15 @@ max-width: 700px;
    
 }
 
+.gallery-text a {
+  color: #296a12;
+}
+
+.gallery-text a:hover {
+  color: #6bc329;
+}
+
+
 .all-photos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax( 350px, 1fr));
